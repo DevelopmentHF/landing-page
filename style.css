@@ -9,6 +9,7 @@ body {
 .content {
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 /* Top level header scene */
@@ -44,11 +45,16 @@ header {
     padding-bottom: 100px;
 }
 
+.herotext {
+    flex: 1;
+    display: flex;
+}
+
 .herodetails {
+    padding-left: 150px;
     flex: 1;
     display: flex;
     flex-direction: column;
-    padding-left: 150px;
     gap: 15px;
     justify-content: center;
 }
