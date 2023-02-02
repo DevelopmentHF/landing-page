@@ -17,7 +17,7 @@ header {
     flex: 1;
     display: flex;
     background-color: #1F2937;
-    padding-bottom:  100px;
+    padding-bottom:  75px;
     justify-content: space-between;
 }  
 
@@ -84,6 +84,7 @@ header {
     font-weight: bold;
     margin: 10px;
     margin-left: 250px;
+    padding:10px
 }
 
 .heroimage {
@@ -147,6 +148,7 @@ header {
     background-color: #E5E7EB;
     align-items: center;
     justify-content: center;
+    margin-bottom: 100px;
 }
 
 .quotebody {
@@ -165,4 +167,75 @@ header {
     font-weight: bold;
     align-self: flex-end;
     margin-right: 250px;
+}
+
+/* Call to action section */
+.CTA {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ctacontainer {
+    flex: 1;
+    display: flex;
+    margin: 100px;
+    margin-top: 0px;
+    background-color:#3882F6;
+    border-radius: 10px;
+    padding: 30px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.ctatext {
+    flex: 1;
+    margin-bottom: 20px;
+    margin-left: 150px;
+}
+
+.ctatop {
+    flex: 1;
+    font-size: 30px;
+    color:#F9FAF8;
+    font-weight: bold;
+}
+
+.ctabot {
+    flex: 1;
+    font-size: 18px;
+    color:#E5E7EB;
+    font-weight: lighter;
+}
+
+.ctabtncontainer {
+    flex: 1;
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.ctabutton {
+    background-color:#3882F6;
+    padding: 25px;
+    border-radius: 10px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #F9FAF8;
+    font-size: 36px;
+    font-weight: bold;
+    color:#F9FAF8
+}
+
+/* Footer section */
+
+footer {
+    flex: 1;
+    background-color: #1F2937;
+    color:#F9FAF8;
+    font-size: 18px;
+    padding: 25px;
+    text-align: center;
 }
