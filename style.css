@@ -92,3 +92,47 @@ header {
     margin-right: 250px;
     justify-content: flex-end;
 }
+
+/* Information scene */
+
+.info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.infotitle {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.infotitletext {
+    font-size: 36px;
+    color:#1F2937;
+    font-weight: bolder;
+}
+
+.infobottom {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 150px;
+    margin-top: 20px;
+}
+
+.infoelem {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #999999;
+    text-align: center;
+}
