@@ -1,0 +1,80 @@
+/* General Page specs */
+body {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+/* Main container which contains the different scenes */
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Top level header scene */
+header {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-evenly;
+    padding-bottom:  100px;
+}  
+
+.logo {
+    flex: 1;
+    text-align: center;
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.links {
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+    font-size: 18px;
+    color: #E5E7EB;
+    text-align: center;
+    align-items: center;
+}
+
+/* Hero scene */
+.hero {
+    display: flex;
+    background-color: #1F2937;
+    padding-bottom: 100px;
+}
+
+.herodetails {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding-left: 150px;
+    gap: 15px;
+    justify-content: center;
+}
+
+.maintext {
+    font-size: 48px;
+    font-weight:bolder;
+    color: #F9FAF8;
+}
+
+.secondarytext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.signup {
+    background-color: #3882F6;
+    border: none;
+    color:#F9FAF8;
+    border-radius: 3px;
+    font-size: 18px;
+    align-self: flex-start;
+    font-weight: bold;
+}
+
+.heroimage {
+    flex: 1;
+    text-align: center;
+}
